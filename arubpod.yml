@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: arbdurrub3
+spec:
+ containers:
+  - name: arubdurrubcont2
+    image: nginx
+
+  - name: firefox
+    image: lscr.io/linuxserver/firefox:latest
